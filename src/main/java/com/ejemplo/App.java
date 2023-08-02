@@ -18,6 +18,6 @@ class SaludoController {
 
     @GetMapping("/saludo")
     public String obtenerSaludo() {
-        return "¡Hola pepeluis, este es un saludo desde Spring Boot cambiado en git hub!";
+        return "¡Hola pepeluis 2, este es un saludo desde Spring Boot cambiado en git hub!";
     }
 }

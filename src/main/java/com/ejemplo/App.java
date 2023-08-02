@@ -1,4 +1,4 @@
-package com.ejemplo;
+gipackage com.ejemplo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,6 +18,6 @@ class SaludoController {
 
     @GetMapping("/saludo")
     public String obtenerSaludo() {
-        return "¡Hola pepe, este es un saludo desde Spring Boot!";
+        return "¡Hola pepe, este es un saludo desde Spring Boot cambiado en git hub!";
     }
 }
